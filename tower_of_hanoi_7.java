@@ -1,5 +1,5 @@
 import java.util.*;
-class test {
+class tower_of_hanoi_7 {
     public static void solve(int n, char source, char dest, char aux) {
         if (n==1){
             System.out.println("Move disk 1 from rod " +source+" to rod "+dest);
