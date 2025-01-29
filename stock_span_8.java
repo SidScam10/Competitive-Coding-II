@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class stock_span {
+public class stock_span_8 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n = sc.nextInt();
