@@ -1,5 +1,5 @@
 import java.util.*;
-public class sort_without_space_scuffed {
+public class sort_without_space_scuffed_10 {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
