@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class loop_detect_scuffed {
+public class loop_detect_scuffed_1 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

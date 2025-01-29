@@ -1,5 +1,5 @@
 import java.util.*;
-public class stack_permutations {
+public class stack_permutations_12 {
     public static boolean isStackPermutation(int[] original, int[] target) {
         Stack<Integer> stack=new Stack<>();
         int index = 0;

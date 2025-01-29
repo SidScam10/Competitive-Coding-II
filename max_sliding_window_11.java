@@ -1,5 +1,5 @@
 import java.util.*;
-public class max_sliding_window {
+public class max_sliding_window_11 {
     public static void main(String[] args) {
         Deque<Integer> Q = new LinkedList<>();
         Scanner sc=new Scanner(System.in);

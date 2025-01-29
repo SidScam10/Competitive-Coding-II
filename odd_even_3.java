@@ -3,7 +3,7 @@ class Node {
     Node next, prev;
 }
 
-class odd_even {
+class odd_even_3 {
     Node head;
 
     void segregateEvenOdd() {

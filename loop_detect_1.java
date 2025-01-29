@@ -7,7 +7,7 @@ class Node {
 		next=null;
 	}  
 }
-class loop_detect {
+class loop_detect_1 {
     static Node insertNode(Node head, int val) {
         Node newNode = new Node(val);
         if(head==null) {

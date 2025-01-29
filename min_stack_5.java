@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class min_stack {
+public class min_stack_5 {
     Stack<Integer> mainStack = new Stack<>();
     Stack<Integer> minStack = new Stack<>();
 
@@ -23,7 +23,7 @@ public class min_stack {
     }
 
     public static void main(String[] args) {
-        min_stack stack = new min_stack();
+        min_stack_5 stack = new min_stack_5();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number of operations:");
         int n = sc.nextInt();
