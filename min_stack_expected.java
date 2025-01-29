@@ -1,5 +1,5 @@
 import java.util.*;
-class test {
+class min_stack_exp {
     Stack<Integer> mainStack=new Stack<>();
     Stack<Integer> minStack=new Stack<>();
     public void push(int x)
@@ -21,7 +21,7 @@ class test {
     }
     public static void main(String args[])
     {
-        test stack=new test();
+        min_stack_exp stack=new min_stack_exp();
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter operations as space-separated values:");
         String[] operations=sc.nextLine().split(" ");
