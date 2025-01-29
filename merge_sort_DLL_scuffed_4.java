@@ -1,5 +1,5 @@
 import java.util.*;
-public class merge_sort_4 {
+public class merge_sort_DLL_scuffed_4 {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
