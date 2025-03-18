@@ -54,11 +54,38 @@ class Solution {
 }
 
 public class Recover_BST {
+    static TreeNode root;
+    static TreeNode build(String[] s) {
+        if (s[0].equals("N") || s.length == 0) {
+            return null;
+        }
+        TreeNode root = new TreeNode(Integer.parseInt(s[0]));
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+        int i = 1;
+        while (!q.isEmpty() && i < s.length) {
+            TreeNode curr = q.poll();
+            // Left child
+            if (!s[i].equals("N")) {
+                curr.left = new TreeNode(Integer.parseInt(s[i]));
+                q.add(curr.left);
+            }
+            i++;
+            if (i >= s.length) break;
+            // Right child
+            if (!s[i].equals("N")) {
+                curr.right = new TreeNode(Integer.parseInt(s[i]));
+                q.add(curr.right);
+            }
+            i++;
+        }
+        return root;
+    }
     public static void main(String[] args) {
         // Creating a BST with two nodes swapped
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(3);
-        root.left.right = new TreeNode(2); // Swapped node
+        Scanner sc=new Scanner(System.in);
+        String s[]=sc.nextLine().split(" ");
+        root=build(s);
 
         System.out.println("Inorder before recovery:");
         Solution.printInorder(root);
@@ -72,4 +99,5 @@ public class Recover_BST {
         Solution.printInorder(root);
         System.out.println();
     }
+
 }
