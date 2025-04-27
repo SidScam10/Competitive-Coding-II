@@ -1,6 +1,6 @@
 import java.util.*;
 public class LPS {
-    public static int longestPalindromeSubseq(String s) {
+    public static int lps_calc(String s) {
         int n = s.length();
         int[][] dp = new int[n][n];
         for (int i = n - 1; i >= 0; i--) {
