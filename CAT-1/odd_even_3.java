@@ -61,7 +61,7 @@ class odd_even_3 {
     }
 
     public static void main(String[] args) {
-        odd_even list = new odd_even();
+        odd_even_3 list = new odd_even_3();
         java.util.Scanner sc = new java.util.Scanner(System.in);
         System.out.println("Enter the number of elements:");
         int n = sc.nextInt();

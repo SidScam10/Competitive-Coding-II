@@ -64,6 +64,7 @@ class loop_detect_1 {
                 System.out.println("Cycle detected");
             else
                 System.out.println("Cycle not detected");
+        sc.close();
     }
 }
             
