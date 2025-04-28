@@ -14,5 +14,6 @@ class tower_of_hanoi_7 {
         int n=sc.nextInt();
         char source='S',aux='A',dest='D';
         solve(n,source,dest,aux);
+        System.out.println("Total: "+((int)Math.pow(2,n)-1));
     }
 }
